@@ -4,14 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.14.1",
-    "express-useragent": "^1.0.7",
-    "ua-parser-js": "^0.7.12",
-    "useragent": "^2.1.12"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.14.1",
+      "express-useragent": "^1.0.7",
+      "ua-parser-js": "^0.7.12",
+      "useragent": "^2.1.12"
+    }
   }
-}
